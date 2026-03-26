@@ -1,46 +1,46 @@
 # Eagle Sports Club Website 🦅⚽
 
-موقع إلكتروني متكامل لنادي رياضي طلابي، مصمم لتقديم تجربة مستخدم مميزة لعشاق الرياضة والأنشطة الجامعية. يوفر الموقع منصة لعرض الفعاليات الرياضية، الملاعب المتاحة، واللجان المختصة، مع نظام إدارة دخول للأعضاء.
+A comprehensive web application for a student-led sports club, designed to provide a premium user experience for sports enthusiasts and university students. The website serves as a platform to showcase upcoming events, available sports courts, and various student committees, while featuring a secure members' portal.
 
-## ✨ المميزات الرئيسية
+## ✨ Key Features
 
-- **واجهة مستخدم عصرية ومتجاوبة:** تصميم جذاب يعمل بسلاسة على كافة الأجهزة (هواتف، أجهزة لوحية، وحواسيب).
-- **نظام الفعاليات القادمة:** عرض شامل للأنشطة الرياضية مثل تحدي الكروس فت، سباقات الجري، والمسابقات الميدانية.
-- **استعراض الملاعب:** مراجعة الملاعب الرياضية المتاحة في النادي (كرة القدم، البادل، وكرة السلة).
-- **اللجان الطلابية:** معلومات تفصيلية عن اللجان الأساسية (الموارد البشرية، العلاقات العامة، إدارة الفعاليات، والسوشيال ميديا).
-- **نظام تسجيل الدخول:** صفحة خاصة للأعضاء تسمح لهم بالدخول والتفاعل مع محتوى النادي.
-- **قسم المدونة:** لنشر آخر الأخبار والمقالات الرياضية.
-- **نموذج تواصل:** وسيلة مباشرة للتواصل مع إدارة النادي.
+- **Modern & Responsive UI:** A sleek, mobile-first design that works seamlessly across desktops, tablets, and smartphones.
+- **Dynamic Events Display:** Highlighted sections for upcoming activities such as CrossFit challenges, marathons, and track & field meets.
+- **Sports Courts Showcase:** Dedicated sections for the club's facilities, including Football, Padel, and Basketball courts.
+- **Student Committees:** Detailed information on the club's core teams (HR, PR, Event Management, and Social Media).
+- **User Authentication:** A built-in login system allowing members to access exclusive club content.
+- **Blog Section:** A space for the latest sports news, tips, and club updates.
+- **Contact Integration:** A functional contact form for inquiries and feedback.
 
-## 🛠️ التقنيات المستخدمة
+## 🛠️ Technology Stack
 
 - **Front-end:** HTML5, CSS3, JavaScript.
 - **Back-end:** PHP.
 - **Icons:** Font Awesome.
 - **Fonts:** Google Fonts (Poppins).
 
-## 📂 هيكلية المشروع
+## 📂 Project Structure
 
 ```text
 Student-Club-Website/
-├── index.html        # الصفحة الرئيسية
-├── about.html        # صفحة "عن النادي"
-├── blog.html         # صفحة المدونة
-├── contact.html      # صفحة التواصل
-├── login.html        # صفحة تسجيل الدخول
-├── style.css         # ملف التنسيقات الرئيسي
-├── form-handler.php  # معالجة بيانات النماذج
-├── login.php        # منطق تسجيل الدخول
-├── logout.php       # الخروج من الحساب
-└── images/           # مجلد الصور والوسائط
+├── index.html        # Main Landing Page
+├── about.html        # About Us Page
+├── blog.html         # Blog & News Page
+├── contact.html      # Contact Us Page
+├── login.html        # Login Form
+├── style.css         # Main Stylesheet
+├── form-handler.php  # Form Submission Logic
+├── login.php        # Authentication Logic
+├── logout.php       # Session Termination
+└── images/           # Assets (Images & Logos)
 ```
 
-## 🚀 كيفية التشغيل
+## 🚀 Getting Started
 
-1. قم بتحميل المشروع على جهازك.
-2. استخدم خادم محلي مثل **XAMPP** أو **WAMP**.
-3. انقل ملفات المشروع إلى مجلد `htdocs` في XAMPP.
-4. افتح المتصفح وانتقل إلى `localhost/Student-Club-Website/index.html`.
+1. Clone or download the repository.
+2. Ensure you have a local server environment (e.g., **XAMPP** or **WAMP**).
+3. Place the project files into the `htdocs` (XAMPP) or `www` (WAMP) directory.
+4. Open your browser and navigate to `localhost/Student-Club-Website/index.html`.
 
 ---
-*تم تطوير هذا المشروع كجزء من مساق برمجة الويب - السنة الثانية SUT.*
+*Developed as part of the Web Programming curriculum - 2nd Year SUT.*
